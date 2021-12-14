@@ -8,5 +8,5 @@ npm run codegen -  download GraphQL schema,generate TypeScript types for queries
 
 npm run build 
 
-yarn deploy
+yarn deploy - change access token , githubuser/proj-name
 
