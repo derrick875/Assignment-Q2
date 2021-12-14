@@ -1,0 +1,19 @@
+{
+  "name": "test-ethereum-subgraph",
+  "version": "1.0.0",
+  "scripts": {
+    "codegen": "graph codegen --output-dir src/types/",
+    "build": "graph build",
+    "deploy": "graph deploy --access-token aa233f4adf8c49828814fabbbb7e2303 --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ melvinwo82/mb"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.20.0",
+    "@graphprotocol/graph-ts": "^0.20.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  }
+}
